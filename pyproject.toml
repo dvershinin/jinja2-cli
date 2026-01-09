@@ -1,0 +1,6 @@
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+# E402: Module level import not at top of file - intentional in cli.py
+ignore = ["E402"]
